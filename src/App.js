@@ -13,27 +13,27 @@ export default function App() {
           </div>
           <div className="radio-group_item">
             <input type="radio" id="five" value="5" name="cash" />
-            <label for="one">5</label>
+            <label for="five">5</label>
           </div>
           <div className="radio-group_item">
             <input type="radio" id="ten" value="10" name="cash" />
-            <label for="one">10</label>
+            <label for="ten">10</label>
           </div>
           <div className="radio-group_item">
             <input type="radio" id="twenty" value="20" name="cash" />
-            <label for="one">20</label>
+            <label for="twenty">20</label>
           </div>
           <div className="radio-group_item">
             <input type="radio" id="one-hundred" value="100" name="cash" />
-            <label for="one">100</label>
+            <label for="one-hundred">100</label>
           </div>
           <div className="radio-group_item">
             <input type="radio" id="five-hundred" value="500" name="cash" />
-            <label for="one">500</label>
+            <label for="five-hundred">500</label>
           </div>
           <div className="radio-group_item">
             <input type="radio" id="two-thousand" value="2000" name="cash" />
-            <label for="one">2000</label>
+            <label for="two-thousand">2000</label>
           </div>
         </div>
         <button className="calculate-btn">calculate</button>
