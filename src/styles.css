@@ -19,20 +19,22 @@ body {
 }
 
 h1 {
-  color: rgb(238, 206, 79);
+  color: #ece9f2;
 }
 .container {
   background-color: #7c3aed;
   padding: 2rem 5rem 6rem 5rem;
   border-radius: 6px;
-  height: 50vh;
-  width: 70vw;
+  height: 70vh;
+  width: 80vw;
 }
 
 .bill-txtbox {
   appearance: textfield;
   opacity: 0.7;
-  background-color: #efe68d;
+  background-color: #ece9f2;
+  color: #7c3aed;
+  font-weight: bold;
   outline: none;
   border: none;
   padding: 0.5rem;
@@ -56,6 +58,10 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 1rem auto;
+  height: 4rem;
+  width: 100%;
+  background-color: #ece9f2;
+  border-radius: 6px;
 }
 .radio-group_item {
   margin-left: 1rem;
@@ -66,29 +72,37 @@ h1 {
 }
 
 label {
-  /* opacity: 0.7; */
   transition: font-size 0.3s ease-in;
+  text-align: center;
 }
 
 input:invalid .radio-group_item input:checked + label {
   font-size: 1.4rem;
   /* opacity: 1; */
-  color: rgb(238, 206, 79);
+  color: #7c3aed;
 }
 
 .calculate-btn {
   border: 0;
+  outline: none;
   margin-top: 0.5rem;
-  padding: 0.6rem;
+  padding: 0.8rem;
   font-family: inherit;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #efe68d;
+  background-color: #ece9f2;
   /* border-radius: 42px; */
   border-radius: 8px;
-  background: rgb(238, 206, 79);
+  color: #7c3aed;
+  transition: transform 0.3s linear;
 }
 
 .calculate-btn:active {
   transform: scale(0.96);
+}
+
+article {
+  margin: 2rem;
+  font-size: 3rem;
+  color: #ece9f2;
 }
